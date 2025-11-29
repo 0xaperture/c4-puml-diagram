@@ -8,11 +8,11 @@ C4 plant Unified Modeling Language (UML) for application visualizaton and threat
 ### Context Template
 A context diagram is the highest-level view in a system architecture. It shows your system as a single box and identifies the external actors, systems, and data flows that interact with it. The goal is to clearly define the system’s boundaries—what’s inside your responsibility and what isn’t—while illustrating how information moves in and out.
 
-- In threat modeling, this helps identify:
+In threat modeling, this helps identify:
 - Who or what can access the system
 - Where trust boundaries exist
-
-Potential high-level attack surfaces (e.g., public APIs, external integrations)
+- Potential high-level attack surfaces (e.g., public APIs, external integrations)
+- 
 [Context Diagram](c4DiagramTemplate_Context.puml)
 ![Context Diagram](./assets/c4DiagramTemplate_Context3.png)
 
