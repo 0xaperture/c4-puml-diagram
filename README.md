@@ -1,4 +1,8 @@
 # C4 Plant UML Diagram
+Using the C4 model with PlantUML for threat modeling brings structure, clarity, and maintainability to security design work. Because C4 defines systems at four intentional levels—context, containers, components, and code—it naturally aligns threats to where they exist in the architecture, rather than forcing a diagram to represent too much at once.
+
+PlantUML adds a “diagrams-as-code” approach, enabling version control, automated updates, and peer review just like application code. This makes models easier to evolve as architectures change, reduces stale documentation, and supports collaboration across engineering and security teams. The result is a more accurate, scalable, and traceable threat model that stays relevant throughout the system lifecycle.
+
 C4 plant Unified Modeling Language (UML) for application visualizaton and threat-modeling.
 
 ### Context Template
@@ -6,8 +10,8 @@ C4 plant Unified Modeling Language (UML) for application visualizaton and threat
 ![Context Diagram](./assets/c4DiagramTemplate_Context3.png)
 
 ### Container Template
-[Context Diagram](c4DiagramTemplate_Container.puml)
-![Context Diagram](./assets/c4DiagramTemplate_Container.png)
+[Container Diagram](c4DiagramTemplate_Container.puml)
+![Container Diagram](./assets/c4DiagramTemplate_Container.png)
 
 ### Component Template
 
