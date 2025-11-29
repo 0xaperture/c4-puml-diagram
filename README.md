@@ -29,6 +29,15 @@ In threat modeling, container diagrams are valuable because they clarify:
 ![Container Diagram](./assets/c4DiagramTemplate_Container.png)
 
 ### Component Template
+A component diagram is the third level of the C4 model and dives deeper into a single container to show the major internal building blocks—components—that provide its functionality. Components typically represent logical groupings of functionality such as services, modules, controllers, repositories, or processors, rather than individual classes.
+
+This diagram clarifies how responsibilities are organized inside a container, which components talk to each other, and how they depend on external systems or libraries.
+
+For threat modeling, component diagrams help identify:
+- Specific areas where sensitive logic or data resides
+- Interfaces and internal APIs where unauthorized access could occur
+- How security controls should be applied within the architecture
+- Risk concentrations and potential lateral movement paths
 
 ### References
 - Plant UML - https://github.com/plantuml-stdlib/C4-PlantUML
