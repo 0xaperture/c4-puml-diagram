@@ -17,6 +17,14 @@ In threat modeling, this helps identify:
 ![Context Diagram](./assets/c4DiagramTemplate_Context3.png)
 
 ### Container Template
+A container diagram is the second level of the C4 model and breaks the system into its major building blocks—called containers. These aren’t physical shipping containers, but logical units such as web apps, APIs, mobile apps, databases, message queues, or background workers. The diagram shows how these containers communicate, the technologies they use, and how responsibilities are divided across the system.
+
+In threat modeling, container diagrams are valuable because they clarify:
+- Where data is stored, processed, and transmitted
+- Internal trust boundaries between components
+- Specific attack surfaces (e.g., service endpoints, admin consoles)
+- Security controls that must apply per container or boundary
+
 [Container Diagram](c4DiagramTemplate_Container.puml)
 ![Container Diagram](./assets/c4DiagramTemplate_Container.png)
 
