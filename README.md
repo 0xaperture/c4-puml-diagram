@@ -12,7 +12,7 @@ In threat modeling, this helps identify:
 - Who or what can access the system
 - Where trust boundaries exist
 - Potential high-level attack surfaces (e.g., public APIs, external integrations)
-- 
+
 [Context Diagram](c4DiagramTemplate_Context.puml)
 ![Context Diagram](./assets/c4DiagramTemplate_Context3.png)
 
